@@ -1,0 +1,746 @@
+08:28:16.086 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+08:28:25.053 ERROR com.dukascopy.api.impl.connect.ActivityLogger - java.lang.RuntimeException: Could not generate DH keypair
+javax.net.ssl.SSLException: java.lang.RuntimeException: Could not generate DH keypair
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:208)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1836)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1794)
+	at sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1777)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1296)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1273)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:523)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1087)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:250)
+	at com.dukascopy.api.impl.connect.ActivityLogger.doPostLog(ActivityLogger.java:229)
+	at com.dukascopy.api.impl.connect.ActivityLogger.sendLog(ActivityLogger.java:156)
+	at com.dukascopy.api.impl.connect.ActivityLogger.flush(ActivityLogger.java:113)
+	at com.dukascopy.api.impl.connect.ActivityLogger.run(ActivityLogger.java:103)
+Caused by: java.lang.RuntimeException: Could not generate DH keypair
+	at sun.security.ssl.DHCrypt.<init>(DHCrypt.java:123)
+	at sun.security.ssl.ClientHandshaker.serverKeyExchange(ClientHandshaker.java:618)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:202)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:868)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:804)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:966)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1262)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1289)
+	... 9 more
+Caused by: java.security.InvalidAlgorithmParameterException: Prime size must be multiple of 64, and can only range from 512 to 1024 (inclusive)
+	at com.sun.crypto.provider.DHKeyPairGenerator.initialize(DHKeyPairGenerator.java:120)
+	at java.security.KeyPairGenerator$Delegate.initialize(KeyPairGenerator.java:658)
+	at sun.security.ssl.DHCrypt.<init>(DHCrypt.java:117)
+	... 16 more
+08:29:06.979 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+08:29:16.523 ERROR com.dukascopy.api.impl.connect.ActivityLogger - java.lang.RuntimeException: Could not generate DH keypair
+javax.net.ssl.SSLException: java.lang.RuntimeException: Could not generate DH keypair
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:208)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1836)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1794)
+	at sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1777)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1296)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1273)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:523)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1087)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:250)
+	at com.dukascopy.api.impl.connect.ActivityLogger.doPostLog(ActivityLogger.java:229)
+	at com.dukascopy.api.impl.connect.ActivityLogger.sendLog(ActivityLogger.java:156)
+	at com.dukascopy.api.impl.connect.ActivityLogger.flush(ActivityLogger.java:113)
+	at com.dukascopy.api.impl.connect.ActivityLogger.run(ActivityLogger.java:103)
+Caused by: java.lang.RuntimeException: Could not generate DH keypair
+	at sun.security.ssl.DHCrypt.<init>(DHCrypt.java:123)
+	at sun.security.ssl.ClientHandshaker.serverKeyExchange(ClientHandshaker.java:618)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:202)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:868)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:804)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:966)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1262)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1289)
+	... 9 more
+Caused by: java.security.InvalidAlgorithmParameterException: Prime size must be multiple of 64, and can only range from 512 to 1024 (inclusive)
+	at com.sun.crypto.provider.DHKeyPairGenerator.initialize(DHKeyPairGenerator.java:120)
+	at java.security.KeyPairGenerator$Delegate.initialize(KeyPairGenerator.java:658)
+	at sun.security.ssl.DHCrypt.<init>(DHCrypt.java:117)
+	... 16 more
+08:33:46.770 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+08:33:48.791 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+08:34:12.807 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+08:34:21.415 ERROR singlejartest.Main - C:\report.html (Accès refusé)
+java.io.FileNotFoundException: C:\report.html (Accès refusé)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:165)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.createReport(TesterClientImpl.java:1494)
+	at singlejartest.TesterMain$1.onStop(TesterMain.java:73)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$3.onStop(TesterClientImpl.java:511)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$TesterLoadingProgressListener.loadingFinished(TesterClientImpl.java:1728)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:461)
+	at java.lang.Thread.run(Thread.java:722)
+08:34:21.534 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.535 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.536 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.537 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.538 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.538 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.541 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.541 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.542 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.542 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.543 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.544 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.544 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.547 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.548 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.548 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.549 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.550 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.550 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.551 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.592 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.593 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.593 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.594 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.594 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.595 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.595 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.597 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.598 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.598 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.599 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.599 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.600 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.600 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.601 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:34:21.601 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:37:43.232 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+08:37:45.473 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+08:37:55.396 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+08:38:04.354 ERROR singlejartest.Main - C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+java.io.FileNotFoundException: C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:165)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.createReport(TesterClientImpl.java:1494)
+	at singlejartest.TesterMain$1.onStop(TesterMain.java:73)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$3.onStop(TesterClientImpl.java:511)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$TesterLoadingProgressListener.loadingFinished(TesterClientImpl.java:1728)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:461)
+	at java.lang.Thread.run(Thread.java:722)
+08:38:04.461 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.462 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.463 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.464 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.464 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.465 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.466 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.467 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.468 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.468 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.469 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.469 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.470 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.472 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.472 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.474 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.476 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.476 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.478 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.478 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.482 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.482 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.485 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.488 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.490 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.493 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.493 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.494 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.495 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.495 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.496 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.496 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.497 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.497 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.498 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.499 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.499 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.500 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.500 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.501 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.502 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.502 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:38:04.502 ERROR com.dukascopy.charts.data.datacache.LocalCacheManager - Shutdown in progress
+java.lang.IllegalStateException: Shutdown in progress
+	at java.io.DeleteOnExitHook.add(DeleteOnExitHook.java:60)
+	at java.io.File.deleteOnExit(File.java:1008)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager.getIntraPeriodFileHandle(LocalCacheManager.java:499)
+	at com.dukascopy.charts.data.datacache.LocalCacheManager$WriteDelayedTasks.run(LocalCacheManager.java:2786)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+08:42:34.850 ERROR singlejartest.TesterMainGUIMode - Incorrect username or password
+com.dukascopy.api.system.JFAuthenticationException: Incorrect username or password
+	at com.dukascopy.api.impl.connect.TesterClientImpl.authenticateAPI(TesterClientImpl.java:419)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.connect(TesterClientImpl.java:237)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.connect(TesterClientImpl.java:226)
+	at singlejartest.TesterMainGUIMode.startStrategy(TesterMainGUIMode.java:156)
+	at singlejartest.TesterMainGUIMode$3$1.run(TesterMainGUIMode.java:257)
+	at java.lang.Thread.run(Thread.java:722)
+08:43:15.360 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+08:43:17.345 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+08:43:37.950 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+08:43:49.368 ERROR singlejartest.TesterMainGUIMode - C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+java.io.FileNotFoundException: C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:165)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.createReport(TesterClientImpl.java:1494)
+	at singlejartest.TesterMainGUIMode$1.onStop(TesterMainGUIMode.java:133)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$3.onStop(TesterClientImpl.java:511)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$TesterLoadingProgressListener.loadingFinished(TesterClientImpl.java:1728)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:461)
+	at java.lang.Thread.run(Thread.java:722)

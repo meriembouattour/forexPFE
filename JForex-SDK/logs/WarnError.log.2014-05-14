@@ -1,0 +1,14 @@
+23:37:01.483 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+23:37:05.918 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+23:37:43.069 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+23:38:04.678 ERROR singlejartest.TesterMainGUIMode - C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+java.io.FileNotFoundException: C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:165)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.createReport(TesterClientImpl.java:1494)
+	at singlejartest.TesterMainGUIMode$1.onStop(TesterMainGUIMode.java:133)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$3.onStop(TesterClientImpl.java:511)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$TesterLoadingProgressListener.loadingFinished(TesterClientImpl.java:1728)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:461)
+	at java.lang.Thread.run(Thread.java:722)

@@ -1,0 +1,87 @@
+01:36:36.397 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+01:36:46.461 ERROR singlejartest.MainOpenChart - Failed to connect Dukascopy servers
+01:45:06.569 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+01:45:15.814 ERROR com.dukascopy.api.impl.connect.ActivityLogger - java.lang.RuntimeException: Could not generate DH keypair
+javax.net.ssl.SSLException: java.lang.RuntimeException: Could not generate DH keypair
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:208)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1836)
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1794)
+	at sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1777)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1296)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1273)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:523)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1087)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:250)
+	at com.dukascopy.api.impl.connect.ActivityLogger.doPostLog(ActivityLogger.java:229)
+	at com.dukascopy.api.impl.connect.ActivityLogger.sendLog(ActivityLogger.java:156)
+	at com.dukascopy.api.impl.connect.ActivityLogger.flush(ActivityLogger.java:113)
+	at com.dukascopy.api.impl.connect.ActivityLogger.run(ActivityLogger.java:103)
+Caused by: java.lang.RuntimeException: Could not generate DH keypair
+	at sun.security.ssl.DHCrypt.<init>(DHCrypt.java:123)
+	at sun.security.ssl.ClientHandshaker.serverKeyExchange(ClientHandshaker.java:618)
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:202)
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:868)
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:804)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:966)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1262)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1289)
+	... 9 more
+Caused by: java.security.InvalidAlgorithmParameterException: Prime size must be multiple of 64, and can only range from 512 to 1024 (inclusive)
+	at com.sun.crypto.provider.DHKeyPairGenerator.initialize(DHKeyPairGenerator.java:120)
+	at java.security.KeyPairGenerator$Delegate.initialize(KeyPairGenerator.java:658)
+	at sun.security.ssl.DHCrypt.<init>(DHCrypt.java:117)
+	... 16 more
+01:55:52.506 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+01:55:54.328 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+01:56:13.048 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+01:56:35.530 ERROR singlejartest.GUIModeChartControls - C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+java.io.FileNotFoundException: C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:165)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.createReport(TesterClientImpl.java:1494)
+	at singlejartest.GUIModeChartControls$1.onStop(GUIModeChartControls.java:154)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$3.onStop(TesterClientImpl.java:511)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$TesterLoadingProgressListener.loadingFinished(TesterClientImpl.java:1728)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:461)
+	at java.lang.Thread.run(Thread.java:722)
+01:57:35.457 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - Received tick has time older/the same <2014-05-23 20:59:55:078> than previous tick <1400878795078[2014-05-23 20:59:55.078+0000] / 1.36344 / 1.36275>, ignoring
+01:57:35.859 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+01:57:38.812 ERROR singlejartest.GUIModeChartControls - C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+java.io.FileNotFoundException: C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:165)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.createReport(TesterClientImpl.java:1494)
+	at singlejartest.GUIModeChartControls$1.onStop(GUIModeChartControls.java:154)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$3.onStop(TesterClientImpl.java:511)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$TesterLoadingProgressListener.loadingFinished(TesterClientImpl.java:1728)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:440)
+	at java.lang.Thread.run(Thread.java:722)
+01:57:42.165 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - Received tick has time older/the same <2014-05-23 20:59:55:078> than previous tick <1400878795078[2014-05-23 20:59:55.078+0000] / 1.36344 / 1.36275>, ignoring
+01:57:43.291 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+01:57:59.575 ERROR singlejartest.GUIModeChartControls - C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+java.io.FileNotFoundException: C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:165)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.createReport(TesterClientImpl.java:1494)
+	at singlejartest.GUIModeChartControls$1.onStop(GUIModeChartControls.java:154)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$3.onStop(TesterClientImpl.java:511)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$TesterLoadingProgressListener.loadingFinished(TesterClientImpl.java:1728)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:461)
+	at java.lang.Thread.run(Thread.java:722)
+02:41:22.504 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - Received tick has time older/the same <2014-05-23 20:59:55:078> than previous tick <1400878795078[2014-05-23 20:59:55.078+0000] / 1.36344 / 1.36275>, ignoring
+02:41:22.773 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+02:41:36.440 ERROR singlejartest.GUIModeChartControls - C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+java.io.FileNotFoundException: C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:165)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.createReport(TesterClientImpl.java:1494)
+	at singlejartest.GUIModeChartControls$1.onStop(GUIModeChartControls.java:154)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$3.onStop(TesterClientImpl.java:511)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$TesterLoadingProgressListener.loadingFinished(TesterClientImpl.java:1728)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:461)
+	at java.lang.Thread.run(Thread.java:722)

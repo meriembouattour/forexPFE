@@ -1,0 +1,238 @@
+14:27:48.694 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - JStore is disabled for the current user
+14:27:51.473 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+14:28:04.349 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+14:28:22.315 ERROR singlejartest.GUIModeChartControls - C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+java.io.FileNotFoundException: C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:165)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.createReport(TesterClientImpl.java:1494)
+	at singlejartest.GUIModeChartControls$1.onStop(GUIModeChartControls.java:154)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$3.onStop(TesterClientImpl.java:511)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$TesterLoadingProgressListener.loadingFinished(TesterClientImpl.java:1728)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:461)
+	at java.lang.Thread.run(Thread.java:722)
+14:59:36.531 ERROR com.dukascopy.charts.data.datacache.time.TimeManager - Request to DFS timed out, timeout [10000], request [{"id":87,"type":"ServerTimeRequestMessage"}]
+com.dukascopy.charts.data.datacache.DataCacheException: Request to DFS timed out, timeout [10000], request [{"id":87,"type":"ServerTimeRequestMessage"}]
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.processMessage(CurvesJsonProtocolHandler.java:1025)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.processMessage(CurvesJsonProtocolHandler.java:945)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadServerTime(CurvesJsonProtocolHandler.java:1045)
+	at com.dukascopy.charts.data.datacache.time.TimeManager$3.run(TimeManager.java:191)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+14:59:37.516 ERROR com.dukascopy.charts.data.datacache.time.TimeManager - Request to DFS timed out, timeout [10000], request [{"id":86,"type":"ServerTimeRequestMessage"}]
+com.dukascopy.charts.data.datacache.DataCacheException: Request to DFS timed out, timeout [10000], request [{"id":86,"type":"ServerTimeRequestMessage"}]
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.processMessage(CurvesJsonProtocolHandler.java:1025)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.processMessage(CurvesJsonProtocolHandler.java:945)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadServerTime(CurvesJsonProtocolHandler.java:1045)
+	at com.dukascopy.charts.data.datacache.time.TimeManager$3.run(TimeManager.java:191)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+14:59:42.677 WARN  com.dukascopy.charts.data.datacache.FeedDataProvider - Received tick has time older/the same <2014-05-27 23:59:59:684> than previous tick <1401235199684[2014-05-27 23:59:59.684+0000] / 1.36339 / 1.36336>, ignoring
+14:59:43.111 WARN  com.dukascopy.api.impl.connect.WLabelData - White Label Image is not received
+14:59:52.933 ERROR com.dukascopy.charts.data.datacache.time.TimeManager - Request to DFS timed out, timeout [10000], request [{"id":88,"type":"ServerTimeRequestMessage"}]
+com.dukascopy.charts.data.datacache.DataCacheException: Request to DFS timed out, timeout [10000], request [{"id":88,"type":"ServerTimeRequestMessage"}]
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.processMessage(CurvesJsonProtocolHandler.java:1025)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.processMessage(CurvesJsonProtocolHandler.java:945)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadServerTime(CurvesJsonProtocolHandler.java:1045)
+	at com.dukascopy.charts.data.datacache.time.TimeManager$3.run(TimeManager.java:191)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+14:59:56.742 ERROR singlejartest.GUIModeChartControls - C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+java.io.FileNotFoundException: C:\report.html (Le client ne dispose pas d’un privilège nécessaire)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:165)
+	at com.dukascopy.api.impl.connect.TesterClientImpl.createReport(TesterClientImpl.java:1494)
+	at singlejartest.GUIModeChartControls$1.onStop(GUIModeChartControls.java:154)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$3.onStop(TesterClientImpl.java:511)
+	at com.dukascopy.api.impl.connect.TesterClientImpl$TesterLoadingProgressListener.loadingFinished(TesterClientImpl.java:1728)
+	at com.dukascopy.dds2.greed.agent.strategy.tester.StrategyRunner.run(StrategyRunner.java:461)
+	at java.lang.Thread.run(Thread.java:722)
+15:00:10.305 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - ServerTimeResponseMessage received from history server, but none is waiting for it: {"userId":"779208","minit":false,"sessid":"dd94ed49-3100-4133-98de-cb7bd37310eb","serverTime":"1401281968454","id":86,"transId":"86","type":"ServerTimeResponseMessage"}
+15:00:10.306 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - ServerTimeResponseMessage received from history server, but none is waiting for it: {"userId":"779208","minit":false,"sessid":"dd94ed49-3100-4133-98de-cb7bd37310eb","serverTime":"1401281968454","id":87,"transId":"87","type":"ServerTimeResponseMessage"}
+15:00:10.306 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - ServerTimeResponseMessage received from history server, but none is waiting for it: {"userId":"779208","minit":false,"sessid":"dd94ed49-3100-4133-98de-cb7bd37310eb","serverTime":"1401281981984","id":88,"transId":"88","type":"ServerTimeResponseMessage"}
+15:00:10.314 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - Data downloaded in [27017.094535] milliseconds, size [24], first data time [2014.05.01 00:00:00 000], last data time [2014.05.24 00:00:00 000], request - instrument [EUR/USD] period [Daily] side [Ask] from [2014.05.01 00:00:00 000] to [2014.05.24 00:00:00 000]
+15:00:10.374 WARN  com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - Data downloaded in [27074.108257] milliseconds, size [6], first data time [2014.05.19 00:00:00 000], last data time [2014.05.24 00:00:00 000], request - instrument [EUR/USD] period [Daily] side [Ask] from [2014.05.19 00:00:00 000] to [2014.05.24 00:00:00 000]
+15:00:10.402 ERROR com.dukascopy.transport.client.ClientConnector - Last encoded msg:  <script>parent.push({"vd":true,"id":92,"period":"86400","instrument":"*EUR/USD_Bid","from":"1400457600","type":"candle_subsc","to":"1400889600"})</script>
+15:00:10.402 ERROR com.dukascopy.transport.client.ClientConnector - (d-ja-gva-91-191.dukascopy.com/194.8.15.191:10443) lastIoTime: 5
+15:00:10.402 ERROR com.dukascopy.transport.client.ClientConnector - (d-ja-gva-91-191.dukascopy.com/194.8.15.191:10443) lastReadTime: 5
+15:00:10.402 ERROR com.dukascopy.transport.client.ClientConnector - (d-ja-gva-91-191.dukascopy.com/194.8.15.191:10443) lastWriteTime: 26
+15:00:10.403 ERROR com.dukascopy.transport.client.ClientConnector - (d-ja-gva-91-191.dukascopy.com/194.8.15.191:10443) scheduled write bytes: 37
+15:00:10.403 ERROR com.dukascopy.transport.client.ClientConnector - (d-ja-gva-91-191.dukascopy.com/194.8.15.191:10443) scheduled write requests: 0
+15:01:11.455 ERROR com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - Still not connected after waiting [60] seconds
+com.dukascopy.charts.data.datacache.NotConnectedException: Still not connected after waiting [60] seconds
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.connect(CurvesJsonProtocolHandler.java:130)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:279)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:154)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadAndSaveIntradayData(CurvesDataLoader.java:983)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:304)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:108)
+	at com.dukascopy.charts.data.datacache.LoadDataAction.run(LoadDataAction.java:309)
+	at com.dukascopy.charts.data.datacache.FeedDataProvider.loadCandlesDataSynched(FeedDataProvider.java:775)
+	at com.dukascopy.charts.data.datacache.IntraperiodCandlesGenerator$4.run(IntraperiodCandlesGenerator.java:1024)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+15:02:11.464 ERROR com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - Still not connected after waiting [60] seconds
+com.dukascopy.charts.data.datacache.NotConnectedException: Still not connected after waiting [60] seconds
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.connect(CurvesJsonProtocolHandler.java:130)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:279)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:154)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadAndSaveIntradayData(CurvesDataLoader.java:983)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:304)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:108)
+	at com.dukascopy.charts.data.datacache.LoadDataAction.run(LoadDataAction.java:309)
+	at com.dukascopy.charts.data.datacache.FeedDataProvider.loadCandlesDataSynched(FeedDataProvider.java:775)
+	at com.dukascopy.charts.data.datacache.IntraperiodCandlesGenerator$4.run(IntraperiodCandlesGenerator.java:1024)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+15:03:11.466 ERROR com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - Still not connected after waiting [60] seconds
+com.dukascopy.charts.data.datacache.NotConnectedException: Still not connected after waiting [60] seconds
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.connect(CurvesJsonProtocolHandler.java:130)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:279)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:154)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadAndSaveIntradayData(CurvesDataLoader.java:983)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:304)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:108)
+	at com.dukascopy.charts.data.datacache.LoadDataAction.run(LoadDataAction.java:309)
+	at com.dukascopy.charts.data.datacache.FeedDataProvider.loadCandlesDataSynched(FeedDataProvider.java:775)
+	at com.dukascopy.charts.data.datacache.IntraperiodCandlesGenerator$4.run(IntraperiodCandlesGenerator.java:1024)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+15:04:11.471 ERROR com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - Still not connected after waiting [60] seconds
+com.dukascopy.charts.data.datacache.NotConnectedException: Still not connected after waiting [60] seconds
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.connect(CurvesJsonProtocolHandler.java:130)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:279)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:154)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadAndSaveIntradayData(CurvesDataLoader.java:983)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:304)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:108)
+	at com.dukascopy.charts.data.datacache.LoadDataAction.run(LoadDataAction.java:309)
+	at com.dukascopy.charts.data.datacache.FeedDataProvider.loadCandlesDataSynched(FeedDataProvider.java:775)
+	at com.dukascopy.charts.data.datacache.IntraperiodCandlesGenerator$4.run(IntraperiodCandlesGenerator.java:1024)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+15:05:11.486 ERROR com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - Still not connected after waiting [60] seconds
+com.dukascopy.charts.data.datacache.NotConnectedException: Still not connected after waiting [60] seconds
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.connect(CurvesJsonProtocolHandler.java:130)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:279)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:154)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadAndSaveIntradayData(CurvesDataLoader.java:983)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:304)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:108)
+	at com.dukascopy.charts.data.datacache.LoadDataAction.run(LoadDataAction.java:309)
+	at com.dukascopy.charts.data.datacache.FeedDataProvider.loadCandlesDataSynched(FeedDataProvider.java:775)
+	at com.dukascopy.charts.data.datacache.IntraperiodCandlesGenerator$4.run(IntraperiodCandlesGenerator.java:1024)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+15:06:11.500 ERROR com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - Still not connected after waiting [60] seconds
+com.dukascopy.charts.data.datacache.NotConnectedException: Still not connected after waiting [60] seconds
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.connect(CurvesJsonProtocolHandler.java:130)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:279)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:154)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadAndSaveIntradayData(CurvesDataLoader.java:983)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:304)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:108)
+	at com.dukascopy.charts.data.datacache.LoadDataAction.run(LoadDataAction.java:309)
+	at com.dukascopy.charts.data.datacache.FeedDataProvider.loadCandlesDataSynched(FeedDataProvider.java:775)
+	at com.dukascopy.charts.data.datacache.IntraperiodCandlesGenerator$4.run(IntraperiodCandlesGenerator.java:1024)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+15:06:11.502 ERROR com.dukascopy.charts.data.datacache.LoadDataAction - Cannot execute request for data for instrument [EUR/USD] period [Daily] side [Bid] from [2014.05.19 00:00:00 000] to [2014.05.24 00:00:00 000] attempt [5]
+com.dukascopy.charts.data.datacache.DataCacheException: Cannot execute request for data for instrument [EUR/USD] period [Daily] side [Bid] from [2014.05.19 00:00:00 000] to [2014.05.24 00:00:00 000] attempt [5]
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:485)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:154)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadAndSaveIntradayData(CurvesDataLoader.java:983)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:304)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:108)
+	at com.dukascopy.charts.data.datacache.LoadDataAction.run(LoadDataAction.java:309)
+	at com.dukascopy.charts.data.datacache.FeedDataProvider.loadCandlesDataSynched(FeedDataProvider.java:775)
+	at com.dukascopy.charts.data.datacache.IntraperiodCandlesGenerator$4.run(IntraperiodCandlesGenerator.java:1024)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+15:06:11.503 ERROR com.dukascopy.charts.data.datacache.IntraperiodCandlesGenerator - Cannot execute request for data for instrument [EUR/USD] period [Daily] side [Bid] from [2014.05.19 00:00:00 000] to [2014.05.24 00:00:00 000] attempt [5]
+com.dukascopy.charts.data.datacache.DataCacheException: Cannot execute request for data for instrument [EUR/USD] period [Daily] side [Bid] from [2014.05.19 00:00:00 000] to [2014.05.24 00:00:00 000] attempt [5]
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:485)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:154)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadAndSaveIntradayData(CurvesDataLoader.java:983)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:304)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:108)
+	at com.dukascopy.charts.data.datacache.LoadDataAction.run(LoadDataAction.java:309)
+	at com.dukascopy.charts.data.datacache.FeedDataProvider.loadCandlesDataSynched(FeedDataProvider.java:775)
+	at com.dukascopy.charts.data.datacache.IntraperiodCandlesGenerator$4.run(IntraperiodCandlesGenerator.java:1024)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+15:07:11.515 ERROR com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - Still not connected after waiting [60] seconds
+com.dukascopy.charts.data.datacache.NotConnectedException: Still not connected after waiting [60] seconds
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.connect(CurvesJsonProtocolHandler.java:130)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:279)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:154)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadAndSaveIntradayData(CurvesDataLoader.java:983)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:304)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:108)
+	at com.dukascopy.charts.data.datacache.LoadDataAction.run(LoadDataAction.java:309)
+	at com.dukascopy.charts.data.datacache.FeedDataProvider.loadCandlesDataSynched(FeedDataProvider.java:775)
+	at com.dukascopy.charts.data.datacache.IntraperiodCandlesGenerator$4.run(IntraperiodCandlesGenerator.java:1024)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+15:08:11.521 ERROR com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler - Still not connected after waiting [60] seconds
+com.dukascopy.charts.data.datacache.NotConnectedException: Still not connected after waiting [60] seconds
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.connect(CurvesJsonProtocolHandler.java:130)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:279)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:154)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadAndSaveIntradayData(CurvesDataLoader.java:983)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:304)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:108)
+	at com.dukascopy.charts.data.datacache.LoadDataAction.run(LoadDataAction.java:309)
+	at com.dukascopy.charts.data.datacache.FeedDataProvider.loadCandlesDataSynched(FeedDataProvider.java:775)
+	at com.dukascopy.charts.data.datacache.IntraperiodCandlesGenerator$4.run(IntraperiodCandlesGenerator.java:1024)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+15:08:11.522 ERROR com.dukascopy.charts.data.datacache.LoadDataAction - Cannot execute request for data for instrument [EUR/USD] period [Daily] side [Bid] from [2014.05.01 00:00:00 000] to [2014.05.24 00:00:00 000] attempt [5]
+com.dukascopy.charts.data.datacache.DataCacheException: Cannot execute request for data for instrument [EUR/USD] period [Daily] side [Bid] from [2014.05.01 00:00:00 000] to [2014.05.24 00:00:00 000] attempt [5]
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:485)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:154)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadAndSaveIntradayData(CurvesDataLoader.java:983)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:304)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:108)
+	at com.dukascopy.charts.data.datacache.LoadDataAction.run(LoadDataAction.java:309)
+	at com.dukascopy.charts.data.datacache.FeedDataProvider.loadCandlesDataSynched(FeedDataProvider.java:775)
+	at com.dukascopy.charts.data.datacache.IntraperiodCandlesGenerator$4.run(IntraperiodCandlesGenerator.java:1024)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+15:08:11.523 ERROR com.dukascopy.charts.data.datacache.IntraperiodCandlesGenerator - Cannot execute request for data for instrument [EUR/USD] period [Daily] side [Bid] from [2014.05.01 00:00:00 000] to [2014.05.24 00:00:00 000] attempt [5]
+com.dukascopy.charts.data.datacache.DataCacheException: Cannot execute request for data for instrument [EUR/USD] period [Daily] side [Bid] from [2014.05.01 00:00:00 000] to [2014.05.24 00:00:00 000] attempt [5]
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:485)
+	at com.dukascopy.charts.data.datacache.CurvesJsonProtocolHandler.loadDataFromDFS(CurvesJsonProtocolHandler.java:154)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadAndSaveIntradayData(CurvesDataLoader.java:983)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:304)
+	at com.dukascopy.charts.data.datacache.CurvesDataLoader.loadInCache(CurvesDataLoader.java:108)
+	at com.dukascopy.charts.data.datacache.LoadDataAction.run(LoadDataAction.java:309)
+	at com.dukascopy.charts.data.datacache.FeedDataProvider.loadCandlesDataSynched(FeedDataProvider.java:775)
+	at com.dukascopy.charts.data.datacache.IntraperiodCandlesGenerator$4.run(IntraperiodCandlesGenerator.java:1024)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
